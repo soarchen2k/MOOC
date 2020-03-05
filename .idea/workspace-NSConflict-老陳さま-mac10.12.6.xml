@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="daa3aa41-cc25-40ed-bd2c-b61ddba9ea2d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/part2/src/ca/monor/week09/W9_26_PhoneSearch/cours/OneObjectInManyListsAMapConstructionOrASet/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2/src/ca/monor/week09/W9_26_PhoneSearch/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2/src/ca/monor/week09/W9_26_PhoneSearch/src/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2/src/ca/monor/week09/W9_26_PhoneSearch/src/PersonAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2/src/ca/monor/week09/W9_26_PhoneSearch/src/PhoneBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2/src/ca/monor/week09/W9_26_PhoneSearch/src/TextMenu.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1PGAlnnFmGrfcKqoATMYKH4aQv2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ca.monor.week09.W9_24_MultipleEntryDictionary.cours.ManyValuesAndOneKey" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ca.monor.week07.W7_03_Calculator" />
+      <recent name="ca.monor.week07.W7_02_CharacterStringChanger" />
+      <recent name="ca.monor.Week06.Exercise100_NightSky" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ca.monor.week09.W9_25_DuplicateRemover.tools" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/part2/src/ca/monor/week09/W9_22_FileAnalysis/src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main (3)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.monor.week09.W9_24_MultipleEntryDictionary.dictionary.Main" />
+      <module name="Part2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.monor.week09.W9_24_MultipleEntryDictionary.dictionary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.monor.week09.W9_25_DuplicateRemover.tools.Main" />
+      <module name="Part2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.monor.week09.W9_25_DuplicateRemover.tools.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.monor.week09.W9_26_PhoneSearch.src.Main" />
+      <module name="Part2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.monor.week09.W9_26_PhoneSearch.src.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.monor.week09.W9_21_Printer.cours.bookProducer.Main" />
+      <module name="Part2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.monor.week09.W9_21_Printer.cours.bookProducer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.monor.week09.W9_20_SensorsAndTemperatureMeasurement.application.Main" />
+      <module name="Part2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.monor.week09.W9_20_SensorsAndTemperatureMeasurement.application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.monor.week09.W9_19_MethodArgumentValidation.Main" />
+      <module name="Part2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.monor.week09.W9_19_MethodArgumentValidation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapAndSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.monor.week09.W9_24_MultipleEntryDictionary.cours.ManyValuesAndOneKey.MapAndSet" />
+      <module name="Part2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.monor.week09.W9_24_MultipleEntryDictionary.cours.ManyValuesAndOneKey.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.monor.week09.W9_24_MultipleEntryDictionary.cours.ManyValuesAndOneKey.Sets" />
+      <module name="Part2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.monor.week09.W9_24_MultipleEntryDictionary.cours.ManyValuesAndOneKey.ExerciseAccounting" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.MapAndSet" />
+        <item itemvalue="Application.Sets" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="daa3aa41-cc25-40ed-bd2c-b61ddba9ea2d" name="Default Changelist" comment="" />
+      <created>1562896852834</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562896852834</updated>
+      <workItem from="1562896854053" duration="5104000" />
+      <workItem from="1562953979257" duration="1647000" />
+      <workItem from="1562955946957" duration="6000" />
+      <workItem from="1562956178571" duration="7819000" />
+      <workItem from="1562967570792" duration="14543000" />
+      <workItem from="1563073932208" duration="4243000" />
+      <workItem from="1563163783290" duration="389000" />
+      <workItem from="1563165332373" duration="2000" />
+      <workItem from="1563165675320" duration="3000" />
+      <workItem from="1563291290345" duration="12000" />
+      <workItem from="1563321277511" duration="21000" />
+      <workItem from="1563844228187" duration="7628000" />
+      <workItem from="1563906670951" duration="1872000" />
+      <workItem from="1564198574546" duration="33000" />
+      <workItem from="1564708676655" duration="6915000" />
+      <workItem from="1564755224827" duration="14262000" />
+      <workItem from="1564809031334" duration="24000" />
+      <workItem from="1564809082372" duration="2169000" />
+      <workItem from="1564811964247" duration="45000" />
+      <workItem from="1564812023852" duration="91000" />
+      <workItem from="1564812146840" duration="51000" />
+      <workItem from="1565011358945" duration="106000" />
+      <workItem from="1565490213960" duration="5251000" />
+      <workItem from="1565531845449" duration="1941000" />
+      <workItem from="1565542608782" duration="218000" />
+      <workItem from="1565542853157" duration="169000" />
+      <workItem from="1565543217084" duration="38000" />
+      <workItem from="1565572027072" duration="21000" />
+      <workItem from="1565666367382" duration="3000" />
+      <workItem from="1565730434161" duration="4000" />
+      <workItem from="1565875667979" duration="22427000" />
+      <workItem from="1565987608421" duration="596000" />
+      <workItem from="1566004085495" duration="114000" />
+      <workItem from="1566004939528" duration="12729000" />
+      <workItem from="1566073329964" duration="8312000" />
+      <workItem from="1566085295034" duration="15008000" />
+      <workItem from="1566184699193" duration="4447000" />
+      <workItem from="1566221511379" duration="873000" />
+      <workItem from="1566242577217" duration="3256000" />
+      <workItem from="1566256290164" duration="16000" />
+      <workItem from="1566271098396" duration="4547000" />
+      <workItem from="1566336646820" duration="497000" />
+      <workItem from="1566337440267" duration="227000" />
+      <workItem from="1566338724933" duration="19557000" />
+      <workItem from="1566365226897" duration="1091000" />
+      <workItem from="1566419493508" duration="5223000" />
+      <workItem from="1566433502377" duration="125000" />
+      <workItem from="1566433659424" duration="6255000" />
+      <workItem from="1566448707796" duration="12000" />
+      <workItem from="1566448742515" duration="26000" />
+      <workItem from="1566449028657" duration="1448000" />
+      <workItem from="1566484554123" duration="39000" />
+      <workItem from="1566496919676" duration="12757000" />
+      <workItem from="1566592548911" duration="4096000" />
+      <workItem from="1566603205906" duration="8802000" />
+      <workItem from="1566660183289" duration="32194000" />
+      <workItem from="1566752115399" duration="16000" />
+      <workItem from="1566821569736" duration="12114000" />
+      <workItem from="1566841976410" duration="15000" />
+      <workItem from="1566842630196" duration="7777000" />
+      <workItem from="1566860223824" duration="21000" />
+      <workItem from="1566875667448" duration="10680000" />
+      <workItem from="1566930852151" duration="5509000" />
+      <workItem from="1566962002811" duration="1779000" />
+      <workItem from="1567011838725" duration="3131000" />
+      <workItem from="1567023557953" duration="568000" />
+      <workItem from="1567034960455" duration="5381000" />
+      <workItem from="1567103301111" duration="10358000" />
+      <workItem from="1567179629439" duration="1141000" />
+      <workItem from="1567205339829" duration="4000" />
+      <workItem from="1567217513466" duration="1108000" />
+      <workItem from="1567219970585" duration="2554000" />
+      <workItem from="1567259701271" duration="7000" />
+      <workItem from="1567260400455" duration="351000" />
+      <workItem from="1567261602689" duration="33000" />
+      <workItem from="1567452369146" duration="238000" />
+      <workItem from="1567452632569" duration="625000" />
+      <workItem from="1567453539277" duration="199000" />
+      <workItem from="1567454010052" duration="1800000" />
+      <workItem from="1567460034622" duration="1853000" />
+      <workItem from="1567462351856" duration="338000" />
+      <workItem from="1567463977191" duration="3331000" />
+      <workItem from="1567480670999" duration="1148000" />
+      <workItem from="1567482577800" duration="751000" />
+      <workItem from="1567516496560" duration="607000" />
+      <workItem from="1567524256193" duration="4473000" />
+      <workItem from="1567538172691" duration="118000" />
+      <workItem from="1567549726961" duration="221000" />
+      <workItem from="1567560065291" duration="877000" />
+      <workItem from="1567561035799" duration="360000" />
+      <workItem from="1567562649944" duration="9137000" />
+      <workItem from="1567610667097" duration="9986000" />
+      <workItem from="1567628481347" duration="9450000" />
+      <workItem from="1567704960285" duration="5488000" />
+    </task>
+    <task id="LOCAL-00001" summary="Test My Code">
+      <created>1567560299229</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567560299229</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Test My Code">
+      <created>1567566367440</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1567566367440</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Test My Code">
+      <created>1567572478547</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1567572478547</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Test My Code">
+      <created>1567622717321</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1567622717322</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Test My Code">
+      <created>1567623456427</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1567623456427</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Test My Code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test My Code" />
+  </component>
+</project>
