@@ -1,8 +1,9 @@
 package monor.sandBox;
 
+import java.util.Iterator;
 import java.util.Objects;
 
-public class Person {
+public class Person implements Iterable<Person> {
     private String name;
     private int age;
     private int weight;
@@ -64,5 +65,10 @@ public class Person {
     public double bodyMassIndex() {
         double heightDividedByHundred = this.height / 100.0;
         return this.weight / (heightDividedByHundred * heightDividedByHundred);
+    }
+
+    @Override
+    public Iterator<Person> iterator() {
+        return null;
     }
 }
