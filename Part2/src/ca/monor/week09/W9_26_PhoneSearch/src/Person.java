@@ -33,7 +33,6 @@ public class Person {
 
     public void setPhoneNumber(String number) {
         this.phoneNumber.add(number);
-
     }
 
     public PersonAddress getAddress() {
