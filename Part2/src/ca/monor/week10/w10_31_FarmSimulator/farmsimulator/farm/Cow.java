@@ -7,68 +7,55 @@ import java.util.Random;
 
 public class Cow implements Milkable, Alive {
     private String name;
-    private double udderCapacity;
-    private double milkVolume;
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public double getUdderCapacity() {
-        return udderCapacity;
-    }
-
-    public void setUdderCapacity(double udderCapacity) {
-        this.udderCapacity = udderCapacity;
-    }
-
-    public double getMilkVolume() {
-        return milkVolume;
-    }
-
-    public void setMilkVolume(double milkVolume) {
-        this.milkVolume = milkVolume;
-    }
+    private int capacity;
+    private double amount;
+    private static final String[] NAMES = new String[]{
+            "Anu", "Arpa", "Essi", "Heluna", "Hely",
+            "Hento", "Hilke", "Hilsu", "Hymy", "Ihq", "Ilme", "Ilo",
+            "Jaana", "Jami", "Jatta", "Laku", "Liekki",
+            "Mainikki", "Mella", "Mimmi", "Naatti",
+            "Nina", "Nyytti", "Papu", "Pullukka", "Pulu",
+            "Rima", "Soma", "Sylkki", "Valpu", "Virpi"};
 
     public Cow() {
-        this.name = randomName();
-        this.udderCapacity = 15 + new Random().nextInt(26);
-    }
-
-    private String randomName() {
-        String lettersUpper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-        String lettersLower = "abcdefghijklmnopqrstuvwxyz";
-        StringBuilder stringBuilder = new StringBuilder();
-        stringBuilder.append(lettersUpper.charAt(new Random().nextInt(26)));
-        for (int i = 0; i < new Random().nextInt(6) + 3; i++) {
-            stringBuilder.append(lettersLower.charAt(new Random().nextInt(26)));
-        }
-        return stringBuilder.toString();
+        this.name = NAMES[new Random().nextInt(NAMES.length)];
+        this.capacity = 15 + new Random().nextInt(26);
+        this.amount = 0;
     }
 
     public Cow(String name) {
         this.name = name;
-        this.udderCapacity = 15 + new Random().nextInt(26);
+        this.capacity = 15 + new Random().nextInt(26);
+        this.amount = 0;
+    }
+
+    public String getName() {
+        return this.name;
+    }
+
+    public double getCapacity() {
+        return this.capacity;
+    }
+
+    public double getAmount() {
+        return this.amount;
     }
 
     @Override
     public double milk() {
-        this.milkVolume = 0;
-        return 0;
+        double milk = this.amount;
+        this.amount = 0;
+        return milk;
     }
 
     @Override
     public void liveHour() {
         double milk = ((double) new Random().nextInt(14) / 10d) + 0.7;
-        this.milkVolume = Math.min(this.milkVolume + milk, udderCapacity);
+        this.amount = Math.min(this.amount + milk, capacity);
     }
 
     @Override
     public String toString() {
-        return name + " " + milkVolume + "/" + udderCapacity;
+        return this.name + " " + Math.ceil(this.amount) + "/" + this.capacity;
     }
 }
